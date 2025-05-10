@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Part</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      padding: 2rem;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Order Details</h2>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="address">Shipping Address</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+
+      <label for="part">Selected Part</label>
+      <select id="part" name="part">
+        <option value="V8 Engine">V8 Engine</option>
+        <option value="Oil Filter">Oil Filter</option>
+        <option value="Performance Tire">Performance Tire</option>
+        <option value="Alternator">Alternator</option>
+        <option value="Car Tool Kit">Car Tool Kit</option>
+        <option value="Spare Tire">Spare Tire</option>
+      </select>
+
+      <label for="notes">Additional Notes</label>
+      <textarea id="notes" name="notes" rows="3"></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+</body>
+</html>

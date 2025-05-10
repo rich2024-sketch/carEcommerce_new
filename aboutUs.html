@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   <header>
+      <div class="nav container">
+        <!-- Menu Icon -->
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <!-- Logo -->
+        <a href="#" class="logo">RNJ<span>Cars</span></a>
+        <!-- Nav list -->
+        <ul class="navbar">
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="#cars">CARS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#parts">PARTS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+        </ul>
+        <!-- Search Icon -->
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+
+        <!-- Search box inside a form -->
+        <form class="search-box container" action="/search" method="get">
+          <input type="search" name="q" placeholder="Ara..." />
+        </form>
+
+
+      </div>
+    </header>
+
+
+
+ 
+
+  <!-- Business Introduction -->
+  <section class="business-intro">
+    <h2>Who We Are</h2>
+    <p>Our platform connects verified car sellers and buyers, making the entire car trading process easy, transparent, and secure. Whether you're selling your first car or looking to upgrade, we provide the tools and trust you need.</p>
+    </section>
+
+  <!-- Mission & Vision -->
+    <section class="mission-vision">
+    <h2>Our Mission & Vision</h2>
+    <div class="section-content">
+        <div class="mission">
+        <h2>Our Mission</h2>
+        <p>To make car trading easy, trustworthy, and accessible for everyone.</p>
+        </div>
+        <div class="vision">
+        <h2>Our Vision</h2>
+        <p>To become the most user-friendly and secure car marketplace in Korea and beyond.</p>
+        </div>
+    </div>
+    </section>
+
+
+  <!-- Why Choose Us -->
+    <section class="why-us">
+    <h2>Why Choose Us</h2>
+    <ul>
+        <li>✔ Verified Sellers and Listings</li>
+        <li>✔ Transparent Pricing and No Hidden Fees</li>
+        <li>✔ Easy and Safe Transactions</li>
+        <li>✔ Friendly User Interface for All Users</li>
+    </ul>
+    </section>
+
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h2>Our Team</h2>
+    <p>We’re three passionate individuals on a mission to make car trading smarter, safer, and more convenient.</p>
+    <div class="team-container">
+      <div class="team-member">
+        <img loading="lazy" src="img/oss_jasure_pic.jpg" alt="Jasure">
+        <h3>Jasure</h3>
+        <p>Lead Developer with a knack for clean code and innovative solutions.</p>
+      </div>
+      <div class="team-member">
+        <img loading="lazy" src="img/oss_nila_pic.jpg" alt="Nila">
+        <h3>Nila</h3>
+        <p>UI/UX Designer focused on creating user-friendly and beautiful interfaces.</p>
+      </div>
+      <div class="team-member">
+        <img loading="lazy" src="img/oss_rich_pic.jpg" alt="Richard">
+        <h3>Richard</h3>
+        <p>Project Manager ensuring everything runs smoothly and on time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="footer-container container">
+      <div class="footer-box">
+        <a href="#" class="logo" aria-label="Car Point logo">Car <span>Point</span></a>
+        <div class="social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Sayfalar</h3>
+        <a href="#">Ana sayfa</a>
+        <a href="#">Arabalar</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Modeller</a>
+      </div>
+      <div class="footer-box">
+        <h3>Politikalar</h3>
+        <a href="#">Gizlilik</a>
+        <a href="#">Kalite Politikaları</a>
+        <a href="#">KVKK</a>
+        <a href="#">Uyum Politikaları</a>
+      </div>
+      <div class="footer-box">
+        <h3>Nasıl Yardımcı Olabiliriz</h3>
+        <a href="#">Kampanyalar</a>
+        <a href="#">SSS</a>
+        <a href="#">İletişim</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p>&#169; Bytebay Yazılım 2024</p>
+  </div>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+
+  <!-- Script -->
+  <script>
+    window.onscroll = () => {
+      const btn = document.querySelector('.back-to-top');
+      if (window.scrollY > 500) {
+        btn.style.display = 'block';
+      } else {
+        btn.style.display = 'none';
+      }
+    };
+  </script>
+
+</body>
+</html>

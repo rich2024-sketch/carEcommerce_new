@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emanın Garajı</title>
+    <title>RNJ Garage</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -14,38 +14,40 @@
     <!-- navbar -->
     <header>
       <div class="nav container">
-        <!-- Menü İkonları -->
+        <!-- Menu Icon -->
         <i class="fa-solid fa-bars" id="menu-icon"></i>
         <!-- Logo -->
-        <a href="#" class="logo">Ema<span>Cars</span></a>
+        <a href="#" class="logo">RNJ<span>Cars</span></a>
         <!-- Nav list -->
         <ul class="navbar">
-          <li><a href="#home" class="active">Ana Sayfa</a></li>
-          <li><a href="#cars">Arabalar</a></li>
-          <li><a href="#about">Hakkımızda</a></li>
-          <li><a href="#parts">Diğer</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a href="#home" class="active">HOME</a></li>
+          <li><a href="#cars">CARS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#parts">PARTS</a></li>
+          <li><a href="#blog">BLOG</a></li>
         </ul>
-        <!-- Arama ikonu -->
+        <!-- Search Icon -->
         <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
-        <!-- Arama box -->
-        <div class="search-box container">
-          <input type="search" name="" id="" placeholder="Ara..." />
-        </div>
+
+        <!-- Search box inside a form -->
+        <form class="search-box container" action="/search" method="get">
+          <input type="search" name="q" placeholder="Ara..." />
+        </form>
+
+
       </div>
     </header>
     <!-- home -->
     <section class="home" id="home">
       <div class="home-text">
-        <h1>We Have Evryting <br />Your <span>Car</span> Need</h1>
+        <h1>We Have Everything <br />Your <span>Car</span> Needs</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur <br />
-          adipisicing elit. Omnis, labore!
+          Parts you trust. </br>Performance you feel.
         </p>
-        <!-- Ana sayfa butonu -->
-        <a href="#" class="btn">Discover Now</a>
+        <a href="#cars" class="btn">Discover Now</a>
       </div>
     </section>
+
     <!-- Car section -->
 
     <section class="cars" id="cars">

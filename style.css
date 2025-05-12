@@ -361,7 +361,42 @@ header.shadow #search-icon {
 .parts-container .box .details:hover {
     color: var(--main-color);
     text-decoration: underline;
- }
+ } 
+
+ .parts-container .box .btn {
+  max-width: 120px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 0.3rem;
+  text-align: center;
+} 
+.parts-container .box .btn:hover {
+  background-color: #c0392b; /* darker shade on hover */
+}
+
+.parts-container .box .details {
+  position: relative;
+  bottom: auto;
+  right: auto;
+  margin-top: auto;
+  color: var(--text-color);
+  font-weight: 500;
+}
+.parts-container .box {
+  background: #f6f6f6;
+  border-radius: 0.5rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.parts-container .box {
+  border: 1px solid red;
+}
+
+
 
 .blog-container {
     display: flex;

@@ -2,61 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>5 Tips for Buying a Used Car</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5 Essential Tips for Buying a Used Car</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .blog-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      max-width: 1000px;
+      margin: 40px auto;
+      flex-wrap: wrap;
+    }
+
+    .blog-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .blog-text h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .blog-text p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .blog-text em {
+      color: #888;
+      font-style: italic;
+    }
+
+    .blog-text h2 {
+      color: #34495e;
+      margin-top: 20px;
+    }
+
+    .post-image {
+      flex: 1;
+      max-width: 450px;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .post-image:hover {
+      transform: scale(1.03);
+    }
+
+    .return-button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 0;
+      padding: 12px 24px;
+      background-color: #e74c3c;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .return-button:hover {
+      background-color: #c0392b;
+    }
+
+    @media (max-width: 768px) {
+      .blog-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .blog-text h1 {
+        font-size: 1.6rem;
+      }
+
+      .post-image {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Blog Post Header -->
-  <header class="blog-content-header">
-    <h1>5 Essential Tips for Buying a Used Car</h1>
-    <p><em>Published on April 15, 2025</em></p>
-    <img src="img/dodge.jpg" alt="Used Car Buying Tips" class="post-image" />
-  </header>
-
-  <!-- Blog Content -->
   <section class="blog-content">
-    <p>
-      Buying a used car can be a smart way to save money while getting a great vehicle.
-      But it’s important to be informed so you don’t end up with unexpected problems.
-      Here are 5 tips to help you make the best decision:
-    </p>
+    <div class="blog-text">
+      <h1>5 Essential Tips for Buying a Used Car</h1>
+      <p><em>Published on April 15, 2025</em></p>
+      <p>
+        Buying a used car can be a smart way to save money while getting a reliable ride. But it’s important to know what to look for so you don’t end up with a problem on wheels.
+      </p>
 
-    <div class="tip-section">
       <h2>1. Set a Budget</h2>
-      <p>Know how much you’re willing to spend before you start shopping. Don’t forget to include costs for insurance, registration, and possible repairs.</p>
-    </div>
+      <p>Know your limits. Include insurance, taxes, registration, and possible repairs in your total budget—not just the purchase price.</p>
 
-    <div class="tip-section">
       <h2>2. Do a Background Check</h2>
-      <p>Always ask for the vehicle history report. It shows if the car has been in accidents, how many owners it had, and whether it has a clean title.</p>
-    </div>
+      <p>Get a vehicle history report. It shows past accidents, service records, and ownership history—key signs of whether a car has been treated right.</p>
 
-    <div class="tip-section">
       <h2>3. Inspect the Car</h2>
-      <p>Check the car during daylight and look closely at the tires, paint, lights, and engine. If possible, bring a trusted mechanic along.</p>
+      <p>Look over the car during the day. Examine the tires, paint, lights, and under the hood. A mechanic’s second opinion is always a smart move.</p>
+
+      <h2>4. Test Drive Thoroughly</h2>
+      <p>Drive it in traffic, on the highway, and over bumps. Check the brakes, steering, alignment, and engine sound. Listen closely.</p>
+
+      <h2>5. Negotiate and Close the Deal Safely</h2>
+      <p>Know the market value and don’t be afraid to negotiate. Complete the paperwork properly and avoid paying in cash without a receipt.</p>
+
+      <p>
+        Keep these tips in mind and you’ll boost your chances of finding a used car that’s both dependable and right for your lifestyle.
+      </p>
     </div>
-
-    <div class="tip-section">
-      <h2>4. Test Drive</h2>
-      <p>Drive the car in different conditions—on highways, through traffic, and over bumps. Listen for strange sounds and see how it handles.</p>
-    </div>
-
-    <div class="tip-section">
-      <h2>5. Negotiate and Close Safely</h2>
-      <p>Don’t be afraid to negotiate. Always complete the sale with proper documentation and consider using a secure payment method.</p>
-    </div>
-
-    <p>With these tips in mind, you'll be better prepared to find a reliable used car that fits your needs and budget.</p>
-
-    <a href="index.html#blog" class="btn">← Back to Blog</a>
+    <img src="img/dodge.jpg" alt="Used Car Buying Tips" class="post-image" />
   </section>
 
-  <footer class="blog-footer">
-    &copy; 2025 RNJ Cars. All rights reserved.
-  </footer>
+  <a href="index.html#blog" class="return-button">&larr; Back to All Blog Posts</a>
 
 </body>
 </html>

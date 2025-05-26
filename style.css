@@ -13,7 +13,7 @@
 
 :root {
     --main-color: #d90429;
-    --text-color: #020102;
+    --text-color: rgb(67, 82, 158);
     --bg-color: #fff;
 }
 
@@ -95,7 +95,7 @@ header.shadow #search-icon {
 }
 
 .navbar a {
-    color: var(--text-color);
+    color: blue;
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase; /* tüm harfler büyük */
@@ -145,10 +145,14 @@ header.shadow #search-icon {
     min-height: 600px;
     display: flex;
     align-items: center;
-    background: url(img/Background-home.png);
+    background: url(https://www.motortrend.com/uploads/sites/5/2018/08/Bugatti-Divo-front-three-quarter-1.jpg?w=768&width=768&q=75&format=webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
+}
+
+.home p{
+  color: white;
 }
 
 .home-text {
@@ -193,7 +197,11 @@ header.shadow #search-icon {
     font-weight: 300;
 }
 
-/* 6lı seçenekler */
+/* Car Container */
+
+.cars  h2, p{
+    color: black;
+}
 
 .cars-container {
     display: flex;
@@ -328,9 +336,14 @@ header.shadow #search-icon {
     margin-bottom: 1rem;
 }
 
-.parts-container .box h3 {
+.parts-container .box h3{
+    color: black;
     font-size: 1.1rem;
     font-weight: 600;
+}
+
+.parts-container p{
+    color: black;
 }
 
 .parts-container .box span {
@@ -473,7 +486,7 @@ header.shadow #search-icon {
 .footer {
     padding: 1.5rem 1rem;
     background: var(--text-color);
-    color: #fff;
+    color: black;
     width: 100%;
     border-top: 2px solid var(--main-color);
 }
@@ -490,7 +503,7 @@ header.shadow #search-icon {
 
 
 .footer-container .logo {
-    color: var(--bg-color);
+    color: black;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
@@ -508,7 +521,7 @@ header.shadow #search-icon {
 }
 
 .footer-box a {
-    color: #818181;
+    color: black;
     font-size: 0.9rem;
     margin-bottom: 6px;
     text-decoration: none;
@@ -525,7 +538,7 @@ header.shadow #search-icon {
 
 .social a {
     font-size: 20px;
-    color: var(--bg-color);
+    color: black;
     margin-right: 0.7rem;
     transition: 0.3s;
 }
